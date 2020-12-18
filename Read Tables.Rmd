@@ -1,0 +1,17 @@
+---
+title: "Read Tables"
+author: "Aviral Saxena"
+date: "19/12/2020"
+output: word_document
+---
+
+```{r}
+url=read.table("C:\\Users\\91860\\Desktop\\Tomato First.csv",header=TRUE,sep=",")
+head(url)
+```
+
+Loading Built in data sets
+```{r}
+data("mtcars")
+head(mtcars, 7)
+```

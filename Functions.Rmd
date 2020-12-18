@@ -1,0 +1,51 @@
+---
+title: "Functions"
+author: "Aviral Saxena"
+date: "19/12/2020"
+output: word_document
+---
+
+TO get a working directory
+```{r}
+getwd()
+```
+
+Divider Function
+```{r}
+divider = function(x,y)
+{
+  result = x/y
+  print(result)
+}
+divider(200,10)
+```
+Multiplier Function
+```{r}
+multiply = function(x,y)
+{
+  result = x*y
+  print(result)
+}
+multiply(4,50)
+```
+Concatenation and Arrays
+```{r}
+d=c(2:10)
+d
+d+6
+d-2
+```
+R is a vectorized language
+```{r}
+e=c(1:12)
+e
+f=e*2
+f
+g=f/2
+g
+```
+Matrix Creation
+```{r}
+M=matrix(1:15,nrow=3)
+M
+```

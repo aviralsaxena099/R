@@ -1,0 +1,25 @@
+---
+title: "Matrices"
+author: "Aviral Saxena"
+date: "19/12/2020"
+output: word_document
+---
+
+a=matrix(2:20,nrow=5)
+b=matrix(12:22,nrow=2)
+a
+b
+# Matrix addition
+c=t(b)
+a+c
+# Matrix Multiplication
+a%*%b
+```
+
+Arrays (N dimensional)
+```{r}
+d=array(2:18, dim=c(4,2,2))
+d
+d[,,2]
+d[,1,1]
+```
